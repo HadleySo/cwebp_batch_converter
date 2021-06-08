@@ -3,7 +3,7 @@ import os
 
 directory = input("Directory >>> \n")
 quality = input("Quality (0 to 100) >>> \n")
-extentions = ['.png', '.jpeg', '.jpg']
+extentions = ['.png', '.jpeg', '.jpg', '.JPG']
 
 for ext in extentions:
     for filepath in glob.iglob(directory + '/*' + ext):
